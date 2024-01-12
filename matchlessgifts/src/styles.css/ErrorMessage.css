@@ -1,0 +1,16 @@
+.error-message {
+    display: flex;
+    align-items: center;
+    color: #ff0000; /* Red text color */
+    padding: 10px; /* Add padding for better spacing */
+}
+  
+  .icon {
+    margin-right: 10px; /* Add margin to separate the icon from the text */
+    font-size: 20px; /* Adjust the font size of the icon */
+  }
+  
+  .text {
+    font-size: 13px; /* Adjust the font size of the text */
+  }
+  

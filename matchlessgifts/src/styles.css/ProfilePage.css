@@ -1,0 +1,28 @@
+/* Add this CSS to your stylesheet or in your component style block */
+
+.address-table {
+    display: table;
+    width: 100%;
+  }
+  
+  .address-row {
+    display: table-row;
+    margin-bottom: 8px;
+  }
+  
+  .address-label,
+  .address-value {
+    display: table-cell;
+    padding-right: 10px;
+  }
+  
+  .address-label {
+    font-weight: bold;
+  }
+  
+  /* Optional: To remove margins between table cells */
+  .address-table > .address-row > .address-label:last-child,
+  .address-table > .address-row > .address-value:last-child {
+    padding-right: 0;
+  }
+  

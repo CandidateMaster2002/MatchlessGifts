@@ -1,0 +1,43 @@
+.brand-name {
+    color: gray;
+    font-size: 14px;
+    text-align: left;
+    /* font-weight: bold; */
+}
+
+.product-name {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.price-div {
+    text-align: left;
+}
+
+.org-price {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 0.8em;
+}
+
+.card {
+    width: 10rem;
+    height: 16rem;
+    position: relative;
+    transition: z-index 0.3s ease, opacity 0.3s ease;
+}
+
+.product-card-container {
+    position: relative;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.product-card-container:hover .card {
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.product-card-container:hover {
+    transform: scale(1.3);
+}
